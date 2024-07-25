@@ -82,6 +82,52 @@
   .close:hover {
     color: #ccc;
   }
+
+  .download .para {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .flexBtn1 {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+  .flexBtn1:hover {
+    background-color: #e0e0e0;
+  }
+
+  .flexBtn1 img {
+    margin-right: 10px;
+  }
+
+  .play {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .play span {
+    font-size: 0.7rem;
+    display: block;
+    color: #555;
+  }
+
+  .bg-btn {
+    background-color: #fff;
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .m-2 {
+    margin: 10px;
+  }
   </style>
 </head>
 
@@ -99,10 +145,10 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero" class="active">Home</a></li>
-          <li><a href="index.html#about">Marchant</a></li>
-          <li><a href="index.html#portfolio">Support</a></li>
-          <li><a href="index.html#pricing">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#support">Support</a></li>
+          <li><a href="#">Marchant</a></li>
+          <li><a href="index.html#faq">FAQs</a></li>
         
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -127,7 +173,7 @@
               anywhere,
               anytime</h2>
             <p data-aos="fade-up" data-aos-delay="200">Prepaid token and postpaid bill payment.</p>
-            <a class="btn btn-secondary " href="index.html#about">Pay now </a>
+            <!-- <a class="btn btn-secondary " href="index.html#about">Pay now </a> -->
           </div>
      
         </div>
@@ -163,7 +209,7 @@
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
-                  <img src="./assets/img/call.png" width="70px" height="70px" alt="">
+                  <img src="./assets/img/delivery.png" width="70px" height="70px" alt="">
                   <!-- <i class="bi bi-clipboard-pulse"></i> -->
                   <h3>Fast Service Delivery</h3>
                   <p>Enjoy prompt service delivery for all our products and services across all our platforms. We promise swift value delivery for every transaction made every time.</p>
@@ -183,7 +229,7 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                   <!-- <i class="bi bi-command"></i> -->
-                  <img src="./assets/img/call.png" width="70px" height="70px" alt="">
+                  <img src="./assets/img/payment.png" width="70px" height="70px" alt="">
                   <h3>Multiple Payment Method
                   </h3>
                   <p>
@@ -199,6 +245,39 @@
 
     </section><!-- /About Section -->
 
+
+
+<!-- Download APP CTA start -->
+<div id="pay" style="background: #4d007f; padding: 20px 0;">
+  <div class="download container text-center">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="para text-white">To experience seamless bill payments, download the Powerplug app</p>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center">
+          <a href="https://play.google.com/store/apps/details?id=ng.powerplug.power_plug" class="m-2">
+            <div class="flexBtn1 bg-btn">
+              <img src="./assets//img/playstore.png" alt="playstore logo" width="49px" height="47px">
+              <div class="ml-2">
+                <p class="play text-black mb-0"><span>GET IT ON</span> <br> Google Play</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://apps.apple.com/ng/app/powerplug-buy-electricity/id6443731074" class="m-2">
+            <div class="flexBtn1 bg-btn">
+              <img src="./assets/img/apple.png" alt="app store logo" width="49px" height="47px">
+              <div class="ml-2">
+                <p class="play text-black mb-0"><span>GET IT ON</span> <br> Apple Store</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Download APP CTA end -->
 
 
 <!-- SERVICE PROVIDERS start-->
@@ -252,7 +331,7 @@
 
  
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="support" class="features section">
 
 
       <div class="container">
